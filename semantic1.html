@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Layout with Inline CSS</title>
+</head>
+<body>
+
+    <header style="border: 1px solid #ddd;  background-color: #e0eabe; padding: 20px;">
+        <h1>My Website</h1>
+    </header>
+
+    <nav style="border: 1px solid #ddd;  background-color: #f09494; padding: 10px;">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>       
+    </nav>
+
+    <main style="width: 100%; border: 1px solid #ddd; ">
+        <section style="float: left; background-color: #b09bee; width: 60%;">
+            <h2>Welcome to My Website</h2>
+            <p>This is the main content of the website.</p>
+        </section>      
+        <section style="float: left; background-color: #b09bee; width: 60%;">
+            <h2>Latest Articles</h2>
+            <article style="margin-bottom: 20px;">
+                <h2>Article 1 Tajmahal</h2>
+                <p>This is the content of Article 1.</p>
+            </article>
+            <article style="margin-bottom: 20px;">
+                <h2>Article 2 New Delhi</h2>
+                <p>This is the content of Article 2.</p>
+            </article>
+        </section>
+        <aside style="float: right; background-color: #f09494; border: 1px solid #ddd;  width: 30%; ">
+            <h3>Sidebar Heading</h3>
+            <p>Sidebar content goes here...</p>
+            <p>Sidebar content goes here...</p>
+            <p>Sidebar content goes here...</p>
+            <p>Sidebar content goes here...</p>
+        </aside>
+    </main>
+
+    <footer style="clear: both; background-color: #b4ead8; border: 1px solid #ddd;  padding: 10px;">
+        <div>
+            <h2>Related Links</h2>
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+            </ul>
+        </div>
+        <p>&copy; 2024 My Website. All rights reserved.</p>   
+    </footer>
+
+</body>
+</html>
